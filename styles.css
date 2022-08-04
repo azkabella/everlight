@@ -1,0 +1,205 @@
+/* Global */
+body {
+  top: 0;
+  padding-top: 0;
+  position: relative;
+  margin: 0;
+  font-family: 'Nunito', Serif;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  color: #fafafa;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
+  color: #0077ed;
+}
+
+.cleared {
+  background-color: #fff;
+  border: 0;
+}
+
+.cleared2 {
+  background-color: #eee;
+  border: 0;
+}
+
+.spacer1 {
+  width: 100vw;
+  height: 100px;
+}
+
+.spacer2 {
+  width: 100vw;
+  height: 150px;
+}
+
+/* Navbar */
+.navbar {
+  margin-top: 0;
+  background-color: #7baecc;
+  font-weight:bold;
+}
+
+
+.everlight-nav-brand {
+  height: 1.5rem;
+  padding-left: 10px;
+}
+
+.everlight-nav-brand:hover {
+  color: gray;
+}
+
+/* Header */
+.head-container {
+  min-height: 100vh;
+  width: 100vw;
+  left: 0;
+  position: relative;
+}
+
+.hero-pic {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.caption {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  padding: 10vh 0 0 2vw;
+  background-image: linear-gradient(#7baecc, transparent, transparent, #fff);
+  height: 100vh;
+}
+
+.tagline {
+  font-family: 'Nunito', sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  color: white;
+}
+
+.long-logo {
+  max-width: 600px;
+}
+
+/* Button */
+.consult {
+  width: 230px;
+  height: 50px;
+  border-radius: 50px;
+  transition: font-size .3s;
+}
+
+.consult:hover {
+  font-size: 18px;
+}
+
+/* Drop Shadow */
+.shadow-glow {
+  width: 130px;
+  filter: drop-shadow(0 0 4px #000);
+  transition: width .3s;
+}
+
+.shadow-glow:hover {
+  width: 165px;
+}
+
+/* Containers */
+.container1 {
+  width: 100vw;
+  margin-top: 50px;
+  padding: 10vh 10vw;
+  background-color: #fff;
+}
+
+.container2 {
+  width: 100vw;
+  padding: 10vh 10vw;
+  background-color: #eee;
+}
+
+/* Video */
+.customer-vid {
+  width: 100%;
+  height: auto;
+}
+
+/* Info Pics */
+.info-pic {
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* Footer */
+.footer-style {
+  width: 100vw;
+  margin-bottom: -25px;
+  font-size: 10px;
+  background-color: #eee;
+}
+
+/* Resizes Footer Logo */
+.footer-logo {
+  width: 150px;
+}
+
+/* Mobile Media Queries */
+
+@media only screen and (max-width: 640px) {
+  .cleared {
+    padding: 0 0 100px 0;
+  }
+
+  .long-logo {
+    max-width: 95vw;
+  }
+
+  .tagline {
+    font-size: 20px;
+  }
+
+  .shadow-glow {
+    width: 100px;
+  }
+
+  .shadow-glow:hover {
+    width: 105px;
+  }
+
+}
+
+
+/* Tablet Media Queries */
+
+@media only screen and (max-width: 1100px) {
+  .long-logo {
+    width: 80vw;
+  }
+
+  .tagline {
+    font-size: 35px;
+  }
+
+  .shadow-glow {
+    width: 100px;
+  }
+
+  .shadow-glow:hover {
+    width: 105px;
+  }
+
+}
